@@ -3,9 +3,7 @@ from IryssMLflow import logger
 from sklearn.model_selection import train_test_split
 import pandas as pd
 from IryssMLflow.entity.config_entity import DataTransformationConfig
-from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import OneHotEncoder,OrdinalEncoder,StandardScaler,MinMaxScaler,LabelEncoder
-from sklearn.compose import ColumnTransformer
+
 
 
 
