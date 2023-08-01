@@ -1,1 +1,33 @@
-key: val
+COLUMNS:
+
+  hospital_service_area: object 
+  hospital_country: object 
+  certificate_id: float64
+  facility_name: object 
+  age_group: object 
+  zipcode: float64
+  gender: object 
+  race: object 
+  ethnicity: object 
+  length_of_Stay: float64
+  type_of_admission: object 
+  patient_disposition: object 
+  discharge_year: float64
+  procedure_code: object 
+  procedure_description: object 
+  drg_code: float64
+  drg_description: object 
+  mdc_description: object 
+  severity_of_illness_code: float64
+  severity_of_illness_description: object 
+  risk_of_mortality: object 
+  medical_surgical_description: object 
+  payment_typology_1: object 
+  payment_typology_2: object 
+  payment_typology_3: object 
+  emergency_department_indicator: object   
+  diagnosis_description: object 
+
+TARGET_COLUMN:
+
+  name: total_charges
