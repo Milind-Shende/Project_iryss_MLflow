@@ -3,8 +3,8 @@ from IryssMLflow.utils.common import read_yaml, create_directories
 from IryssMLflow.entity.config_entity import (DataIngestionConfig,
                                             DataValidationConfig,
                                             DataTransformationConfig,
-                                            ModelTrainerConfig)
-                                            # ModelEvaluationConfig)
+                                            ModelTrainerConfig,
+                                            ModelEvaluationConfig)
 
 class ConfigurationManager:
     def __init__(
@@ -93,3 +93,25 @@ class ConfigurationManager:
         )
 
         return model_trainer_config
+    
+    
+    def get_model_evaluation_config(self) -> ModelEvaluationConfig:
+        config = self.config.model_evaluation
+        params = self.params.xgboost
+        schema =  self.schema.TARGET_COLUMN
+
+        create_directories([config.root_dir])
+
+        model_evaluation_config = ModelEvaluationConfig(
+            root_dir=config.root_dir,
+            test_data_path=config.test_data_path,
+            train_data_path=config.train_data_path,
+            model_path = config.model_path,
+            all_params=params,
+            metric_file_name = config.metric_file_name,
+            target_column = schema.name,
+            mlflow_uri="https://dagshub.com/milind.shende24/Project_iryss_MLflow.mlflow",
+           
+        )
+
+        return model_evaluation_config

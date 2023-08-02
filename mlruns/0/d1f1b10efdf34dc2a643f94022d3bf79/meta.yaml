@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Project/Project_iryss_MLflow/mlruns/0/d1f1b10efdf34dc2a643f94022d3bf79/artifacts
+end_time: 1690912877481
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d1f1b10efdf34dc2a643f94022d3bf79
+run_name: burly-steed-645
+run_uuid: d1f1b10efdf34dc2a643f94022d3bf79
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690912877110
+status: 4
+tags: []
+user_id: milin

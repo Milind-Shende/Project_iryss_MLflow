@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Project/Project_iryss_MLflow/mlruns/0/17a1b52f8d2940498086ceadc3ea1648/artifacts
+end_time: 1690947469316
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 17a1b52f8d2940498086ceadc3ea1648
+run_name: colorful-hound-479
+run_uuid: 17a1b52f8d2940498086ceadc3ea1648
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690947458049
+status: 3
+tags: []
+user_id: milin

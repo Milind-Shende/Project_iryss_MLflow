@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Project/Project_iryss_MLflow/mlruns/0/7694ff24c49b40eaa3de02e400f4d9d8/artifacts
+end_time: 1690893994177
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7694ff24c49b40eaa3de02e400f4d9d8
+run_name: sassy-squirrel-51
+run_uuid: 7694ff24c49b40eaa3de02e400f4d9d8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690893993603
+status: 4
+tags: []
+user_id: milin

@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Project/Project_iryss_MLflow/mlruns/0/c42b2ef366f349a28859054e7d6fc492/artifacts
+end_time: 1690947380319
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c42b2ef366f349a28859054e7d6fc492
+run_name: flawless-perch-613
+run_uuid: c42b2ef366f349a28859054e7d6fc492
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690947369254
+status: 3
+tags: []
+user_id: milin

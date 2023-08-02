@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Project/Project_iryss_MLflow/mlruns/0/07d6b3e51ca645c6ab1e10a64bd8d717/artifacts
+end_time: 1690892726674
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 07d6b3e51ca645c6ab1e10a64bd8d717
+run_name: inquisitive-auk-211
+run_uuid: 07d6b3e51ca645c6ab1e10a64bd8d717
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690892726282
+status: 4
+tags: []
+user_id: milin

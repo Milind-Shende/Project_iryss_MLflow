@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Project/Project_iryss_MLflow/mlruns/0/d3a9e80081e845b48ebc18fa9ebffe6b/artifacts
+end_time: 1690882516702
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d3a9e80081e845b48ebc18fa9ebffe6b
+run_name: mercurial-shrike-82
+run_uuid: d3a9e80081e845b48ebc18fa9ebffe6b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690882515910
+status: 4
+tags: []
+user_id: milin

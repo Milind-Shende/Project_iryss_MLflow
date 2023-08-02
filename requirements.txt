@@ -15,4 +15,5 @@ Flask-Cors
 streamlit
 xgboost
 pygwalker
+imblearn
 -e .

@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Project/Project_iryss_MLflow/mlruns/0/b3e4397843824e2caf540cd5b5edca53/artifacts
+end_time: 1690894151957
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b3e4397843824e2caf540cd5b5edca53
+run_name: intelligent-ape-965
+run_uuid: b3e4397843824e2caf540cd5b5edca53
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690894151802
+status: 4
+tags: []
+user_id: milin

@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Project/Project_iryss_MLflow/mlruns/0/3d2fab2420af4490ba140d51d1eb969f/artifacts
+end_time: 1690947763894
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3d2fab2420af4490ba140d51d1eb969f
+run_name: languid-finch-830
+run_uuid: 3d2fab2420af4490ba140d51d1eb969f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690947752835
+status: 3
+tags: []
+user_id: milin
