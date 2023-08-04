@@ -13,12 +13,13 @@ class DataValiadtion:
     def validate_all_columns(self) -> bool:
         try:
             validation_status = None
-
+            logger.info("Reading of data from unzip_data_dir")
             data = pd.read_csv(self.config.unzip_data_dir)
             all_cols = list(data.columns)
             all_schema = self.config.all_schema
 
             # Check if all columns are present in the expected schema
+            logger.info("Check if all columns are present in the expected schema")
             missing_cols = set(all_schema.keys()) - set(all_cols)
             if missing_cols:
                 logger.warning(f"Missing columns in data: {missing_cols}")
@@ -28,6 +29,7 @@ class DataValiadtion:
                 return validation_status
 
             # Check if column data types match the expected schema
+            logger.info("Check if column data types match the expected schema")
             for col, expected_dtype in all_schema.items():
                 actual_dtype = data[col].dtype
                 if actual_dtype != expected_dtype:
@@ -38,6 +40,7 @@ class DataValiadtion:
                     return validation_status
 
             # If all columns and data types match, set validation_status to True
+            logger.info("If all columns and data types match, set validation_status to True")
             validation_status = True
             with open(self.config.STATUS_FILE, 'w') as f:
                 f.write(f"Validation status: {validation_status}")

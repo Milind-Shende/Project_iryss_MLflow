@@ -29,17 +29,14 @@ class ModelTrainerConfig:
     train_data_path: Path
     test_data_path: Path
     model_name: str
-    objective: str 
-    n_estimators: int               
-    learning_rate: float              
-    max_depth: int                    
-    min_child_weight: int             
-    gamma: float                        
-    subsample: int                    
-    colsample_bytree: int            
-    reg_lambda: int                   
-    reg_alpha: int                    
-    random_state: int 
+    transformer_name: str
+    target_name:str
+    n_estimators: int
+    learning_rate: int
+    max_depth: int
+    subsample: int
+    colsample_bytree: int
+    random_state: int               
     target_column: str
 
 @dataclass(frozen=True)
@@ -48,7 +45,10 @@ class ModelEvaluationConfig:
     test_data_path: Path
     train_data_path: Path
     model_path: Path
+    transformer_path: Path
+    target_path: Path
     all_params: dict
-    metric_file_name: Path
+    metric_file_name_train: Path
+    metric_file_name_test: Path
     target_column: str
     mlflow_uri: str

@@ -24,6 +24,8 @@ model_trainer:
   train_data_path: artifacts/data_transformation/train.csv
   test_data_path: artifacts/data_transformation/test.csv
   model_name: model.joblib
+  transformer_name: transformer.joblib
+  target_name: target.joblib
 
 
 model_evaluation:
@@ -31,4 +33,7 @@ model_evaluation:
   train_data_path: artifacts/data_transformation/train.csv
   test_data_path: artifacts/data_transformation/test.csv
   model_path: artifacts/model_trainer/model.joblib
-  metric_file_name: artifacts/model_evaluation/metrics.json
+  transformer_path: artifacts/model_trainer/transformer.joblib
+  target_path: artifacts/model_trainer/target.joblib
+  metric_file_name_train: artifacts/model_evaluation/metrics_train.json
+  metric_file_name_test: artifacts/model_evaluation/metrics_test.json
