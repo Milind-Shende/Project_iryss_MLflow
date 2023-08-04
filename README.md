@@ -63,8 +63,11 @@ open up you local host and port
 [dagshub](https://dagshub.com/)
 
 MLFLOW_TRACKING_URI=https://dagshub.com/Omdena/Iryss.mlflow \
+
 MLFLOW_TRACKING_USERNAME=milind.shende24 \
+
 MLFLOW_TRACKING_PASSWORD=12f6ae09a364684a207d59291ae873c4f015096e \
+
 python script.py
 
 Run this to export as env variables:
